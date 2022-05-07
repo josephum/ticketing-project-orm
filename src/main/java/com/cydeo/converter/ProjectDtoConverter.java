@@ -24,7 +24,8 @@ public class ProjectDtoConverter implements Converter<String, ProjectDTO> {
             return null;
         }
 
-        return projectService.findById(source);
+//        return projectService.findById(source);
+        return null;
 
     }
 
