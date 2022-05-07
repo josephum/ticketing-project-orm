@@ -53,6 +53,7 @@ public class UserDTO {
     }
 
     public String getConfirmPassWord() {
+        setConfirmPassWord(getPassWord());
         return confirmPassWord;
     }
 
